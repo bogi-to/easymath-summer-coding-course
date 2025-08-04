@@ -2,8 +2,6 @@
 using namespace std;
 int main ()
 {
-    int test;
-    cout << test; return 0;
     int questions_right, grade_on_test = 0;
     cin >> questions_right;
 
