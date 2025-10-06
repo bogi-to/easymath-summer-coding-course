@@ -4,23 +4,24 @@ int main ()
 {
     int a;
     int b;
-    int sbor;
-    sbor = a + b;
-    int razlika;
-    razlika = a - b;
-    int proizvedenie;
-    proizvedenie = a * b;
-    int chastno;
-    chastno =a/b;
-    cout << "Sborut e: ";
-    cout << sbor;
-    cout << endl;
-    cout << "Razlikata e: ";
-    cout << razlika;
-    cout << endl;
-    cout << "Proizvedenieto e: ";
-    cout << proizvedenie;
-    cout << "Chatsnoto e: ";
-    cout << chastno;
+    cin >> a >> b;
+
+    int sum;
+    sum = a + b;
+
+    int difference;
+    difference = a - b;
+
+    int product;
+    product = a * b;
+
+    int quotient;
+    quotient = a / b;
+
+    cout << "The sum is: " << sum << endl;
+    cout << "The difference is: " << difference << endl;
+    cout << "The product is: " << product << endl;
+    cout << "The quotient is: " << quotient;
+
     return 0;
 }
